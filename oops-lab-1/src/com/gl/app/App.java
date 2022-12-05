@@ -11,7 +11,7 @@ public class App {
 		
 		Scanner sc = new Scanner(System.in);
 		String department=null;
-		Employee emp = new Employee("Ayan","Medhi");
+		Employee emp = new Employee("Rupesh","Jha");
 		CredentialService cs = new CredentialService();
 		boolean flag=true;
 		while(flag) {
