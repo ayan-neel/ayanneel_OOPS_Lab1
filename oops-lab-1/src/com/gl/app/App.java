@@ -16,6 +16,7 @@ public class App {
 		boolean flag=true;
 		while(flag) {
 			System.out.println("Please enter the department from the following: \n1. Technical\n2. Admin\n3. Legal\n4. Human Resource");
+			System.out.print("Your choice:");
 			int choice = sc.nextInt();
 			switch(choice)
 			{
