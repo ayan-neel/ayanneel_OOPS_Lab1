@@ -43,9 +43,7 @@ public class App {
 		}
 		String emailId = cs.generateEmailAddress(emp.getFirstName(),emp.getLastName(),department);
 		String password = cs.generatePassword();
-		String message="Dear %s your generated credentials are as follows\nEmail-----> %s\nPassword---->%s";
-		String formattedMessage = String.format(message, emp.getFirstName(),emailId,password);
-		System.out.println(formattedMessage);
+		cs.showCredentials(emp.getFirstName(), emailId, password);
 		
 		
 		
